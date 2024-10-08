@@ -19,8 +19,7 @@ public class GermanTranslator implements Translator {
 			return NumbersInString[number - 1];
 
 		} catch(ArrayIndexOutOfBoundsException e){
-			return "Übersetzung der Zahl " + number +" nicht möglich " + "Version " +
-					Translator.version ;
+			return "Übersetzung der Zahl " + number +" nicht möglich, Version " + Translator.version;
 
 		}
 

@@ -12,4 +12,5 @@ public class GermanTranslatorTest {
         assertEquals("null" , translator.translateNumber(0));
     }
 
+
 }

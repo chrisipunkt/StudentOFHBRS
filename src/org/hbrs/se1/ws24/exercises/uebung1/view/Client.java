@@ -1,4 +1,6 @@
 package org.hbrs.se1.ws24.exercises.uebung1.view;
+import org.hbrs.se1.ws24.exercises.uebung1.control.Translator;
+import org.hbrs.se1.ws24.exercises.uebung1.control.Factory;
 
 public class Client {
 
@@ -8,7 +10,10 @@ public class Client {
 		 *
 		 */
 		 void display( int aNumber ){
-			// In dieser Methode soll die Methode translateNumber
+
+			Translator translator = Factory.createGermanTranslator();
+
+             // In dieser Methode soll die Methode translateNumber
 			// mit dem übergegebenen Wert der Variable aNumber
 			// aufgerufen werden.
 			//

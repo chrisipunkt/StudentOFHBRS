@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="test">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Kommentar, wegen Redundanz der Translator Variable.">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Translator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/view/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <workItem from="1727176958305" duration="1892000" />
       <workItem from="1728225210895" duration="596000" />
       <workItem from="1728225978334" duration="3601000" />
-      <workItem from="1728361410605" duration="5029000" />
+      <workItem from="1728361410605" duration="6044000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Klasse wurde erstellt.">
       <option name="closed" value="true" />
@@ -109,7 +107,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728226039154</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Factory Klasse angelegt, Zugriffsänderung bei Translator Interface GermanTranslator Objekt vom Typ Translator wird in Client erstellt.">
+      <option name="closed" value="true" />
+      <created>1728367970132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728367970132</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Factory Klasse angelegt, Zugriffsänderung bei Translator Interface GermanTranslator Objekt vom Typ Translator wird in Client erstellt.">
+      <option name="closed" value="true" />
+      <created>1728368043514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728368043514</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Kommentar, wegen Redundanz der Translator Variable.">
+      <option name="closed" value="true" />
+      <created>1728368199493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728368199493</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Klasse wurde erstellt." />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Factory Klasse angelegt, Zugriffsänderung bei Translator Interface GermanTranslator Objekt vom Typ Translator wird in Client erstellt." />
+    <MESSAGE value="Kommentar, wegen Redundanz der Translator Variable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kommentar, wegen Redundanz der Translator Variable." />
   </component>
 </project>

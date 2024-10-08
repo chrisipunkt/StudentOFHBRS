@@ -18,7 +18,7 @@ public class GermanTranslator implements Translator {
 
 			return NumbersInString[number - 1];
 
-		} catch{
+		} catch(ArrayIndexOutOfBoundsException e){
 			return "Übersetzung nicht möglich...";
 		}
 

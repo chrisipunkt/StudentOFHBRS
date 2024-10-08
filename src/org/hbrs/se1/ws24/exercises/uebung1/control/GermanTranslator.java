@@ -8,10 +8,21 @@ public class GermanTranslator implements Translator {
 	 * Methode zur Übersetzung einer Zahl in eine String-Repraesentation
 	 */
 	public String translateNumber( int number ) {
+									//Auf Indexierung bei Feldern achten, da sie bei 0 anfangen
+									// 0  ,  1   ,  2   ,  3 ,  . . . . .								  , 9
+		String[] NumbersInString = {"eins","zwei","drei","vier", "fünf", "sechs", "sieben","acht", "neun", "zehn"};
 
+		//hier jetzt mit exceptions arbeiten
 
+		try{
 
-		return "null";
+			return NumbersInString[number - 1];
+
+		} catch{
+			return "Übersetzung nicht möglich...";
+		}
+
+		//return "null";
 	}
 
 	/**

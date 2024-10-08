@@ -6,7 +6,7 @@ public class Factory {
 
     public static Translator createGermanTranslator() {
         Translator translator = new GermanTranslator();  //Polymorphismus Objekt ist Typ Translator
-        return translator;
+        return translator;  //alternativ return new GermanTranslator();
     }
 
 }

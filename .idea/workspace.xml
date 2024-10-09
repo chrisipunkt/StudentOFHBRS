@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Kommentar zum Cast in der Factory Klasse abgegeben.">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Kommentare hinzugefügt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/view/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,7 @@
       <workItem from="1728411800582" duration="2999000" />
       <workItem from="1728463999175" duration="710000" />
       <workItem from="1728468246011" duration="151000" />
-      <workItem from="1728470494093" duration="777000" />
+      <workItem from="1728470494093" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Klasse wurde erstellt.">
       <option name="closed" value="true" />
@@ -184,11 +184,38 @@
       <option name="project" value="LOCAL" />
       <updated>1728399267864</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Kommentare hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1728471318919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728471318919</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Kommentare hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1728471522893</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728471522893</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Klasse wurde erstellt." />
@@ -200,6 +227,7 @@
     <MESSAGE value="translateaNumber implementiert." />
     <MESSAGE value="Test Klasse implementiert mit 4 Testfällen, String in GermanTanslator so angepasst wie in Aufgabenstellung und Datum in Factory für GermanTranslator Instanz hinzugefügt." />
     <MESSAGE value="Kommentar zum Cast in der Factory Klasse abgegeben." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kommentar zum Cast in der Factory Klasse abgegeben." />
+    <MESSAGE value="Kommentare hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kommentare hinzugefügt" />
   </component>
 </project>

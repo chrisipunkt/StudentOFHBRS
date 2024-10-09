@@ -10,13 +10,12 @@ public class Client {
 		 *
 		 */
 		 void display( int aNumber ){
-
+			//Translator Referenz wird hier erstellt und ruft Factory Methode auf
 			Translator translator = Factory.createGermanTranslator();
 
              // In dieser Methode soll die Methode translateNumber
 			// mit dem übergegebenen Wert der Variable aNumber
 			// aufgerufen werden.
-			//
 			// Strenge Implementierung (nur) gegen das Interface Translator gewuenscht!
 
 			 System.out.println("Das Ergebnis der Berechnung: " +

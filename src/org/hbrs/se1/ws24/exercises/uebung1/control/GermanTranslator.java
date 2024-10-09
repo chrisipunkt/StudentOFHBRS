@@ -10,7 +10,7 @@ public class GermanTranslator implements Translator {
 	public String translateNumber( int number ) {
 									//Feld mit Zahlen als Strings initialisiereinitialisieren
 									//Auf Indexierung bei Feldern achten, da sie bei 0 anfangen
-									// 0  ,  1   ,  2   ,  3 ,  . . . . .								  , 9
+									// 0  ,  1   ,  2   ,  3 ,  . . . . .	 						,8	  , 9
 		String[] NumbersInString = {"eins","zwei","drei","vier", "fünf", "sechs", "sieben","acht", "neun", "zehn"};
 
 		//hier jetzt mit exceptions arbeiten

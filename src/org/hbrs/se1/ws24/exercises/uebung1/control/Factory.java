@@ -7,7 +7,7 @@ public class Factory {
 
     public static Translator createGermanTranslator() {
         Translator translator = new GermanTranslator();
-        //Polymorphismus verwendet Objekt ist vom Typ Translator
+        //Polymorphismus wird verwendet, Objekt ist vom Typ Translator
 
         ((GermanTranslator) translator).setDate("08-10-2024");
         //Cast, weil sonst kein Datum gesetzt werden kann.

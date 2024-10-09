@@ -8,6 +8,7 @@ public class GermanTranslator implements Translator {
 	 * Methode zur Übersetzung einer Zahl in eine String-Repraesentation
 	 */
 	public String translateNumber( int number ) {
+									//Feld mit Zahlen als Strings initialisiereinitialisieren
 									//Auf Indexierung bei Feldern achten, da sie bei 0 anfangen
 									// 0  ,  1   ,  2   ,  3 ,  . . . . .								  , 9
 		String[] NumbersInString = {"eins","zwei","drei","vier", "fünf", "sechs", "sieben","acht", "neun", "zehn"};
@@ -15,10 +16,11 @@ public class GermanTranslator implements Translator {
 		//hier jetzt mit exceptions arbeiten
 
 		try{
-
+				// eingegebene Nummer-1 als Index des Feldes prüfen
 			return NumbersInString[number - 1];
 
 		} catch(ArrayIndexOutOfBoundsException e){
+			// sobald number außerhalb des Intervalls liegt, wird Fehlermeldung gegeben
 			return "Übersetzung der Zahl " + number +" nicht möglich, Version " + Translator.version;
 
 		}

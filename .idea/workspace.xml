@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="translateaNumber implementiert.">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Kommentar zum Cast in der Factory Klasse abgegeben.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung1/GermanTranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung1/GermanTranslatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,33 +50,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.GermanTranslatorTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/chris/Documents/Uni/Wise24/SE1/U1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.GermanTranslatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chris/Documents/Uni/Wise24/SE1/U1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises" />
@@ -114,7 +113,12 @@
       <workItem from="1728385904613" duration="84000" />
       <workItem from="1728388439828" duration="49000" />
       <workItem from="1728390238906" duration="301000" />
-      <workItem from="1728393508284" duration="5397000" />
+      <workItem from="1728393508284" duration="5842000" />
+      <workItem from="1728408729158" duration="347000" />
+      <workItem from="1728411800582" duration="2999000" />
+      <workItem from="1728463999175" duration="710000" />
+      <workItem from="1728468246011" duration="151000" />
+      <workItem from="1728470494093" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Klasse wurde erstellt.">
       <option name="closed" value="true" />
@@ -164,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728395363829</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test Klasse implementiert mit 4 Testfällen, String in GermanTanslator so angepasst wie in Aufgabenstellung und Datum in Factory für GermanTranslator Instanz hinzugefügt.">
+      <option name="closed" value="true" />
+      <created>1728399109808</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728399109808</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Kommentar zum Cast in der Factory Klasse abgegeben.">
+      <option name="closed" value="true" />
+      <created>1728399267864</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728399267864</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +198,8 @@
     <MESSAGE value="tr" />
     <MESSAGE value="Merge branch 'main' of https://github.com/chrisipunkt/StudentOFHBRS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="translateaNumber implementiert." />
-    <option name="LAST_COMMIT_MESSAGE" value="translateaNumber implementiert." />
+    <MESSAGE value="Test Klasse implementiert mit 4 Testfällen, String in GermanTanslator so angepasst wie in Aufgabenstellung und Datum in Factory für GermanTranslator Instanz hinzugefügt." />
+    <MESSAGE value="Kommentar zum Cast in der Factory Klasse abgegeben." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kommentar zum Cast in der Factory Klasse abgegeben." />
   </component>
 </project>

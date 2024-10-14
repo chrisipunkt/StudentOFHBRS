@@ -15,15 +15,13 @@ public class GermanTranslatorTest {
             this.translator = new GermanTranslator();
         }
         //Act
-        @Test
+        @Test                   //für jede ÄK eine extra Testmethode
         void translateNumberTest() { //Assert
             // Test für gÄK ist im Intervall 0<x<11
             assertEquals("sechs", this.translator.translateNumber(6));
-
             // Test für 455 ist Teil von uÄK1 und scheitert
             String test = "Übersetzung der Zahl 455 nicht möglich, Version " + Translator.version;
             assertEquals(test, this.translator.translateNumber(455));
-
             // Test für -30 ist Teil von uÄK2 und scheitert
             String test2 = "Übersetzung der Zahl -30 nicht möglich, Version " + Translator.version;
             assertEquals(test2, this.translator.translateNumber(-30));

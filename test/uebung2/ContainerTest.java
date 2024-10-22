@@ -46,7 +46,7 @@ public class ContainerTest {
         container.addMember(member1);
 
         String result = container.deleteMember(1);
-        assertEquals("Member mit der ID 1 wurde gelöscht.", result);
+        assertEquals("Member mit der ID 1 konnte geloescht werden", result);
         assertEquals(0, container.size(), "Die Anzahl der Member sollte 0 sein.");
     }
 
@@ -54,7 +54,7 @@ public class ContainerTest {
     @Test
     void testDeleteMemberNotFound() {
         String result = container.deleteMember(1);
-        assertEquals("Kein Member mit der ID 1 gefunden.", result);
+        assertEquals("Member nicht enthalten - ERROR", result);
     }
 
     // Testfall 5: Mehrere Member hinzufügen
@@ -117,7 +117,7 @@ public class ContainerTest {
         container.deleteMember(1);
 
         String result = container.deleteMember(1);
-        assertEquals("Kein Member mit der ID 1 gefunden.", result);
+        assertEquals("Member nicht enthalten - ERROR", result);
     }
 
     // Testfall 10: Leerer Container sollte Größe 0 haben
